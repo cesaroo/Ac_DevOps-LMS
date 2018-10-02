@@ -1,0 +1,183 @@
+
+/* Titulo head Cursos*/
+.cur {
+    background-image:url("http://fortenetwork.com.br/wordpress/wp-content/uploads/2012/12/banner1.jpg");
+    width: 100%;
+    height:200px;
+    }
+    
+    /*titulo*/
+.tcurso {
+    font-size: 60px; 
+    color: #F5F5F5;
+    margin-left:70%;
+}
+    /* Estilo dos Cursos */
+    .cursos {
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none; 
+    }
+    /* Imagem de fundo do body */
+    .body{
+        /*background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjzx9ZH7QF1dS3AFTD6YFhItxKj_6Tg4bM1q9N4us6I3goOpCZYg");*/
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+    
+    /* BANNER class*/
+    .banner{
+        background-image:url("https://image.freepik.com/vetores-gratis/placa-e-diploma-de-morteiro-de-estudante-universitario_3446-334.jpg");
+        height: 450px;
+        margin-bottom: 4.8em;
+        position: relative;	
+    }
+    /* BANNER ID*/
+    .div{
+       width: 600px;
+       position: relative;
+       margin: 10px auto;
+    }
+    @media (max-width:960px){
+    .div{
+         width: 450px;
+         margin: 0; 
+        }
+     }
+     @media (min-width:480px){
+    .div{
+         width: 100%;
+         margin: 0; 
+        }
+     }
+    /******Cursos******/
+    /*Curso ADS*/
+    .cads{
+        text-align: center;
+        background: aliceblue;
+        
+    }
+    /*Curso BD*/
+    .cbd{
+        text-align: center;
+        background: aliceblue;
+    
+    }
+    /*Curso REDE DE COMPUTADORES*/
+    .crd{
+        text-align: center;
+        background: aliceblue;
+    
+    }
+	
+    /*Curso ADMNISTRAÇÃO*/
+    .cadm{
+        text-align: center;
+        background: aliceblue;
+    
+    }
+    /*Curso SISTEMAS DA INFORMAÇÃO*/
+    .csi{
+        text-align: center;
+        background: aliceblue;
+    
+    }
+    
+    
+    /*TESTE DE LISTA*/
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    li {
+      display: inline; /* :KLUDGE: Removes large gaps in IE/Win */
+    }
+    a {
+      display: block;
+      text-align:center;
+      width: 450px;
+      height: 100px;
+      line-height: 100px;
+      color: #000;
+      text-decoration: none;
+      /*background: #94B8E9 url(https://www.devfuria.com.br/html-css/listas/pixy-rollover.gif) no-repeat left bottom;*/
+      text-indent: 50px;
+      text-transform: uppercase;
+    }
+    a:hover, .selected a {
+      background-color: #369;
+      background-position: right bottom;
+      color: #fff;
+    }
+    /*li:first-child a {
+        height: 80px;
+        line-height: 80px;
+    }
+    */
+    
+    /*Rodapé*/
+    .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #3665afed;
+       color: white;
+       text-align: center;
+    }
+    /* MENU */
+.menu-departamentos li {
+    background-color:white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-departamentos a {
+    color:#333333;
+    text-decoration:none;
+}
+.menu-departamentos {
+    float: left;
+}
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+    
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+     
+.menu-departamentos li ul {
+    display:none;
+}
+       
+.menu-departamentos li:hover ul {
+   display:block;
+}
+     
+.menu-departamentos ul ul li {
+    background-color:#dcdcdc;
+}
+       
+.menu-departamentos li li a:before {
+    content: '-';
+}
+/* FRAME PAGINA CURSOS*/
+
+.frame{
+    width: 955px;
+    height:880px;
+    margin: 0px;
+}
+.disc{
+    background-color: #7b93c8;
+}
+.noticia{
+    background-color:#bee9e1;
+}
